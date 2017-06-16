@@ -1,5 +1,5 @@
 {
-    "name": "maxisoft/ua-parser",
+    "name": "maxicms/ua-parser",
     "type": "library",
     "description": "The missing UAParser PHP library.",
     "keywords": ["user agent", "parser", "browser", "operating system", "email client", "plateform"],
