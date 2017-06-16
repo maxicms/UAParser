@@ -1,5 +1,5 @@
 {
-    "name": "yzalis/ua-parser",
+    "name": "maxisoft/ua-parser",
     "type": "library",
     "description": "The missing UAParser PHP library.",
     "keywords": ["user agent", "parser", "browser", "operating system", "email client", "plateform"],
@@ -8,11 +8,15 @@
         {
             "name": "Benjamin Laugueux",
             "email": "benjamin@yzalis.com"
+        },
+        {
+            "name": "Max Kostjukevich",
+            "email": "support@maxicms.ru"
         }
     ],
     "require": {
         "php": ">=5.3.0",
-        "symfony/yaml": "~2.1",
+        "symfony/yaml": "3.*",
         "doctrine/inflector": "~1.0"
     },
 
@@ -22,11 +26,6 @@
 
     "autoload": {
         "psr-0": { "UAParser": "src/" }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.2.0-dev"
-        }
     }
 }
 
